@@ -1,0 +1,36 @@
+#board{
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row    {
+    width: 302px;
+    margin: 0 auto;
+    clear: both;
+}
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.top    {
+    border-bottom: 1px solid salmon;
+}
+
+.bottom {
+    border-top: 1px solid cadetblue;
+}
+
+.left   {
+    border-right: 1px solid lightslategray;
+}
+
+.right  {
+    border-left: 1px solid orange;
+}
+
+.sansserif {
+
+    font-family: sans-serif;
+}
